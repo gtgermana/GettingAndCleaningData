@@ -2,7 +2,7 @@
 
 > This README.md file describes the generation of a tidy dataset from a set of input files.
 
->T he Human Activity Recognition Using Smartphones Dataset, of which eight files were of interest to this project, was first downloaded and stored on my computer. The files of interest are:
+> The Human Activity Recognition Using Smartphones Dataset, of which eight files were of interest to this project, was first downloaded and stored on my computer. The files of interest are:
 
 * X_test.txt - test dataset observations
 * y_test.txt - test dataset activity codes
