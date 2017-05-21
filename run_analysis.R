@@ -3,25 +3,25 @@
 library(dplyr)
 
 # Read the test dataset observations
-testObs <- read.table("./test/X_test.txt")
+testObs <- read.table("X_test.txt")
 
 # Read the training dataset observations
-trainingObs <-read.table("./train/X_train.txt")
+trainingObs <-read.table("X_train.txt")
 
 # Read the test dataset activity codes
-testCodes <- read.table("./test/y_test.txt")
+testCodes <- read.table("y_test.txt")
 testCodes <- rename(testCodes, activity = V1)
 
 # Read the training dataset activity codes
-trainingCodes <-read.table("./train/y_train.txt")
+trainingCodes <-read.table("y_train.txt")
 trainingCodes <- rename(trainingCodes, activity = V1)
 
 # Read the test subject identifiers
-testSubjects <- read.table("./test/subject_test.txt")
+testSubjects <- read.table("subject_test.txt")
 testSubjects <- rename(testSubjects, subjectID = V1)
 
 # Read the training subject identifiers
-trainingSubjects <- read.table("./train/subject_train.txt")
+trainingSubjects <- read.table("subject_train.txt")
 trainingSubjects <- rename(trainingSubjects, subjectID = V1)
 
 # Read the activity labels (e.g., WALKING, WALKING_UPSTAIRS, etc.)

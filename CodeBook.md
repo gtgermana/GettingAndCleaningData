@@ -4,7 +4,7 @@
 * activity - representing one of the six possible activities (LAYING, SITTING, STANDING, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS)
 * subjectID - a number between 1 and 30 used to identify a particular subject
 
-> The selected variables are those variables which has "mean" or "std" in their names in the original data files. The naming convention for these variables is 
+> The selected variables are those variables which had "mean" or "std" in their names in the original data files. The naming convention for these variables is 
 
 >> [time|freq][Body|Gravity][Accel|Gyro]{Jerk}{Mag}[Mean|Std]{Freq}{X|Y|Z}
 
@@ -103,7 +103,7 @@ freqBodyBodyGyroJerkMagMeanFreq
 
 > For each activity and subject combination, each variable above is averaged and placed in the tidy dataset, per project instructions.
 
-> This tidy datset was written to a csv file using
+> This tidy dataset was written to a text file using
 
 >> write.table(tidyDataset,"tidyDataset.txt", quote = FALSE, sep = ",", row.names = FALSE)
 
